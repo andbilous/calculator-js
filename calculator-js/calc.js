@@ -1,13 +1,7 @@
-
-function addition (a,b){
-	return a+b
+let difference= (arr)=> {
+	result= arr[0];
+	for(let i= 1; arr.length > i; i++){
+		result-= arr[i];
+	}
+	return result;
 }
-
- function(a,b){
-	return a*b
-}
-(dividend, divisor)=> {
-  let quotient = dividend / divisor;
-  return quotient;
-};
-
